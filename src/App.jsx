@@ -114,7 +114,7 @@ function AppRoutes() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/frontend-attendance-web-react">
       <AuthProvider>
         <Toaster
           position="top-right"
